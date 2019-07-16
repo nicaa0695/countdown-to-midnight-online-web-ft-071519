@@ -1,5 +1,3 @@
-#write your code here
-countdown_output = 6
 def countdown(x)
   x = 10
   while x > 0
@@ -8,3 +6,8 @@ def countdown(x)
 end
   return "HAPPY NEW YEAR!"
 end
+
+def countdown_with_sleep(x)
+  x = 10
+  while x > 1 
+  sleep 1
